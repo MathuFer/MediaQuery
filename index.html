@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d53d0a6ede.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor-grid">
+        <!--Menu-->
+        <div class="grid-menu">
+            <menu>
+                <h3>Menu</h3>
+                <img src="./assets/imgs/Logo.png" alt="">
+                <i class="fa-solid fa-bars"></i>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Entradas</li>
+                    <li>Platos principales</li>
+                    <li>Bebestibles</li>
+                    <li>Postres</li>
+                    <li>Contacto</li>
+                </ul>
+            </menu>
+        </div>
+        <!--Filtro-->
+        <div class="grid-filtro">
+            <div class="filtro">
+                <h3>Ordenar por:</h3>
+                <select>
+                    <option value="entradas">Entradas</option>
+                    <option value="plato principal">Plato Principal</option>
+                    <option value="bebestibles">Bebestibles</option>
+                    <option value="postres">Postres</option>
+                </select>
+            </div>
+        </div>
+        <!--Catalogo-->
+        <div class="grid-main">
+            <main>
+                    <div class="card">
+                        <img src="./assets/imgs/Aperol.png" alt="Aperol">
+                        <h3>Aperol Spritz</h3>
+                        <p>$6.990</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Arroz frito.png" alt="Arroz Frito">
+                        <h3>Arroz Frito c/Verduras</h3>
+                        <p>$13.990</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Bebida.png" alt="Bebida">
+                        <h3>Bebida Gaseosa</h3>
+                        <p>$2.990</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Bloody mary.png" alt="Bloody mary">
+                        <h3>Bloody Mary</h3>
+                        <p>$6.990</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Copa de espumante.png" alt="Copa de espumante">
+                        <h3>Copa de Espumante</h3>
+                        <p>$4.990</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Copa de vino tinto.png" alt="Copa de vino tinto">
+                        <h3>Copa de Vino Tinto</h3>
+                        <p>$5.990</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Ensalada con huevo.png" alt="Ensalado con huevo">
+                        <h3>Ensalado c/Huevos</h3>
+                        <p>$10.990</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Ensalada con jamon serrano.png" alt="Ensalada con jamon serrano">
+                        <h3>Ensalada c/Jamón Serrano</h3>
+                        <p></p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Ensalada con polllo.png" alt="Ensalada con pollo">
+                        <h3>Ensalada c/Pollo</h3>
+                        <p>$15.990</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Guiso porotos verdes.png" alt="Guiso porotos verdes">
+                        <h3>Guiso c/Porotos verdes</h3>
+                        <p>$13.990</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Jugo.png" alt="Jugo">
+                        <h3>Jugo Natural</h3>
+                        <p>$2.490</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Salmon y queso de cabra.png" alt="Salon y quedo de cabra">
+                        <h3>Salmón c/Queso Cabra</h3>
+                        <p>$12.990</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Verduras salteadas con arroz.png" alt="Verduras salteadas">
+                        <h3>Verduras Salteadas</h3>
+                        <p>$9.990</p>
+                        <button>Comprar</button>
+                    </div>
+            </main>
+        </div>
+        <div class="grid-pagina">    
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+                </ul>
+            </nav>
+        </div>
+        <!--Pie de pag-->
+        <div class="grid-footer">
+            <footer>
+                <div>
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <p>Todos los derechos reservados</p>
+            </footer>
+        </div>
+    </div>  
+</body>
+</html>
